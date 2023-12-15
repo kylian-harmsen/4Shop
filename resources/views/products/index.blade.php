@@ -13,6 +13,7 @@
 							<p>{{ $product->description }}</p>
 						@endunless
 					</div>
+                    <p>er is {{ $product->discount }}% korting</p>
 					<button class="btn btn-primary">Meer info &amp; bestellen</button>
 				</div>
 			</a>
